@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <h1>Enter informations</h1>
+
+    <form action="/" method="post">
+        <label for="name">Student name</label>
+        <input id="name" autocapitalize="" autocorrect="" autocomplete="" type="text" name="student name" required placeholder="enter name"> <br><br>
+
+        <label for="password">Enter password</label>
+        <input id="password" name="student password" minlength="5" type="password" required> <br><br>
+
+        <label for="password2">Confirm password</label>
+        <input id="password2" type="password" required> <br> <br><br>
+
+
+        <label for="textarea">Enter text</label> <br>
+        <textarea name="text" id="textarea" placeholder="enter text" cols="30" rows="10"></textarea>
+
+        <label for="rice">Rice</label>
+        <input type="radio" name="rice" id="rice" value="1">
+
+        <label for="rice">Beans</label>
+        <input type="radio" name="rice" id="rice" value="2">
+
+        <label for="rice">Stew</label>
+        <input type="radio" id="rice" name="rice" value="3">  <br><br>
+
+        <select name="language" id="language">
+            <option value="tiv">Tiv</option>
+            <option value="idoma">idoma</option>
+            <option value="igede">igede</option>
+            <option value="igbo">igbo</option>
+        </select>
+
+
+
+
+        <button>sign up</button>
+    </form>
+    
+</body>
+</html>
